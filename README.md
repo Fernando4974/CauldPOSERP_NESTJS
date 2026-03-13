@@ -16,7 +16,7 @@ Bienvenido al repositorio principal de **ClaudPOS ERP**, una solución completa 
 4. [Red y CORS](#red-y-cors)
 5. [Resumen técnico](#resumen-t%C3%A9cnico)
 6. [Comandos útiles](#comandos-%C3%BAtiles)
-7. [Autor](#autor)
+7. [Autores](#autores)
 
 ## Clonar con submódulos
 ```bash
