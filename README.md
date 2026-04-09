@@ -34,12 +34,8 @@ git submodule update --init --recursive
 
 ## Puesta en marcha
 
-### 1. Base de datos (PostgreSQL)
-```bash
-cd Backend
-docker-compose up -d
-```
-La base de datos queda disponible en el puerto 6432, con volumen `./postgres` y nombre `claud_db_erp`.
+### 1. Base de datos (PostgreSQL - Cloudinary)
+Asegurate de cambiar el .env.template por el .env Para el evaluador se le proporciono los .env en la documentacion documento Proyecto
 
 ### 2. Backend (NestJS)
 1. Copia `Backend/.env.template` a `.env` y ajusta las variables necesarias.
