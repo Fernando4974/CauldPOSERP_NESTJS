@@ -70,7 +70,9 @@ El backend permite peticiones desde:
 - `cd Frontend && npx ng lint` — ejecuta el lint del frontend.
 - `cd Backend && npm run test` — corre las pruebas del backend.
 
-## Para credenciales consulte submodulo frontend README.md
+## Credenciales de acceso ADMIN
+- fernando4974@gmail.com
+- fernando123A
 
 ## Autores
 * Fernando Villarreal · Software Developer
