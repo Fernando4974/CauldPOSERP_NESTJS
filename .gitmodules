@@ -4,3 +4,7 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = https://github.com/Fernando4974/ClaudPOSERP-FRONTEND.git
+[submodule "https://github.com/Fernando4974/ClaudPOSERP-BACKEND"]
+	git = main
+[submodule "backend"]
+	bracnh = main
