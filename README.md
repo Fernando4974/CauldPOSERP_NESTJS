@@ -30,7 +30,7 @@ git submodule update --init --recursive
 ## Requisitos previos
 - Node.js LTS 18 o 20 y npm >= 10.
 - Angular CLI 18.2.20 (global o mediante `npx ng`).
-- Docker y Docker Compose para levantar PostgreSQL 14 localmente (Neon es una alternativa gestionada).
+- Archivo .env
 
 ## Puesta en marcha
 
@@ -38,8 +38,8 @@ git submodule update --init --recursive
 Asegurate de cambiar el .env.template por el .env Para el evaluador se le proporciono los .env en la documentacion documento Proyecto
 
 ### 2. Backend (NestJS)
-1. Copia `Backend/.env.template` a `.env` y ajusta las variables necesarias.
-2. Instala dependencias y arranca el servidor:
+
+1. Instala dependencias y arranca el servidor:
    ```bash
    cd Backend
    npm install
@@ -51,9 +51,8 @@ La documentación Swagger se publica en `http://localhost:3001/api`.
 ```bash
 cd Frontend
 npm install
-npm start
+npm start o ng serve
 ```
-Accede a `http://localhost:4200` para usar la interfaz táctil con botones y tarjetas grandes.
 
 ## Red y CORS
 El backend permite peticiones desde:
@@ -70,6 +69,8 @@ El backend permite peticiones desde:
 - `git submodule foreach git pull origin main` — actualiza los submódulos.
 - `cd Frontend && npx ng lint` — ejecuta el lint del frontend.
 - `cd Backend && npm run test` — corre las pruebas del backend.
+
+## Para credenciales consulte submodulo frontend README.md
 
 ## Autores
 * Fernando Villarreal · Software Developer
